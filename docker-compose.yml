@@ -1,9 +1,9 @@
-idea:
+studio:
     build: .
     labels:
-        org.kurron.description: "JetBrains IntelliJ IDEA Java IDE"
-        org.kurron.version: "15.0.2"
-    container_name: "intellij"
+        org.kurron.description: "Android Studio"
+        org.kurron.version: "1.5.1.0"
+    container_name: "studio"
     net: "host"
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix

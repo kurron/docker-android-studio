@@ -2,13 +2,13 @@
 
 CMD="docker run \
        --rm \
-       --name intellij \
+       --name studio \
        --net "host" \
        --env DISPLAY=unix$DISPLAY \
        --user 1000:1000 \
        --volume /tmp/.X11-unix:/tmp/.X11-unix \
        --volume $HOME:/home/developer \
-       kurron/docker-intellij:latest"
+       kurron/docker-android-studio:latest"
 
 echo $CMD
 $CMD
